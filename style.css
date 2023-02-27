@@ -1,0 +1,79 @@
+body {
+	background-color: rgb(175,230,230);
+	color: black;
+	font-family: Helvetica;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1,h2, h3 {
+  font-family: "Helvetica", sans-serif;
+}
+ h1 {
+ 	color: purple;
+ 	font-size: 32px;
+ 	font-weight: 900;
+ }
+ h2 {
+ 	color: darkred;
+ 	font-size: 24px;
+ 	font-weight: lighter;
+ 	font-weight: 500;
+ }
+a {
+  font-family: 'Roboto', sans-serif;
+  color: blue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: yellow;
+  text-decoration: none;
+} 
+
+
+/*Custom Design with class*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: lightgrey;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%
+}
+.btn-purple {
+	background-color: lightpink;
+	color: purple;
+	padding: 15px 20px
+	border-radius: 4px;
+}
+.btn-purple: hover {
+	background-color: purple;
+	color: yellow;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+.list-inline li{
+	display: inline;
+	padding: 10px
+}
+.list-inline i {
+	font-size: 50px;
+	color: lightblue
+}
+
+/* Design adjustements using id */
+#introduction p {
+	margin-bottom: 40px;
+}
